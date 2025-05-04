@@ -1,3 +1,4 @@
+
 def main(s):
     """
     A variable of type str is given. make sure all letters are lowercase.
@@ -6,5 +7,8 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+   
+    if s in s.lower():
+        return True
+    return False
+print(main('fififwf'))
