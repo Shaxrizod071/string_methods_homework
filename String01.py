@@ -6,5 +6,8 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    if s.lower():
+        return s.capitalize()
+    else:
+        return s.lower() 
+print(main('dedaK'))
