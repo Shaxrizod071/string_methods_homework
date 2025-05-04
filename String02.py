@@ -1,3 +1,4 @@
+import string
 def main(s):
     """
     A str of several words is given. All letters are lowercase. Return all letters to uppercase.
@@ -6,5 +7,5 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    return s.upper()
+print(main('dewdweuu'))
