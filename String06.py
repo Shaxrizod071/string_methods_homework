@@ -6,5 +6,8 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    if s.isdigit():
+        return True
+    else:
+        return False
+print(main('24dfs4'))
