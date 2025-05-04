@@ -1,3 +1,4 @@
+import string
 def main(s):
     """
     A str of several words is given. Return the variable capitalized.
@@ -6,5 +7,11 @@ def main(s):
     Returns:
         str: answer
     """
-    
-    return
+    jkl=string.ascii_letters 
+    a=''
+    for i in s:
+       if i in jkl:
+           a+=i
+    return a.capitalize()
+print(main('hgigKGKG'))
+
