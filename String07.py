@@ -7,4 +7,8 @@ def main(s):
         bool: answer
     """
     
-    return
+    if s.isalpha():
+        return True
+    else:
+       return False
+print(main('add'))
